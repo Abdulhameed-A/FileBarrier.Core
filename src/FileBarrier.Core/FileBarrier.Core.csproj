@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <PackageId>FileBarrier.Core</PackageId>
-    <Version>1.0.5</Version>
+    <Version>1.0.6</Version>
     <Authors>SA.Developer</Authors>
     <Company>None</Company>
 
@@ -13,12 +13,9 @@
 Usage: YOUR_IFormFile.IsFileAllowed(ARGS);</Description>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageTags>file filter core mimetype contenttype</PackageTags>
-    <PackageReleaseNotes>A cross-platform base framework, useful for all projects that dealing with uploading files to their .Net Core application.
-
-- Fix MimeTypes duplicate records.
-- Added Barrier Response to give you more information about at which layer the error occurred (use in IsAllowed function).</PackageReleaseNotes>
-    <AssemblyVersion>1.0.5.0</AssemblyVersion>
-    <FileVersion>1.0.5.0</FileVersion>
+    <PackageReleaseNotes>- Added application/x-msdownload to exe.</PackageReleaseNotes>
+    <AssemblyVersion>1.0.6.0</AssemblyVersion>
+    <FileVersion>1.0.6.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
