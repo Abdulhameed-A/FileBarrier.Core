@@ -168,7 +168,7 @@ namespace FileBarrier.Core.Helpers
                 {".etl", "application/etl"},
                 {".etx", "text/x-setext"},
                 {".evy", "application/envoy"},
-                {".exe", "application/octet-stream"},
+                {".exe", "application/octet-stream,application/x-msdownload"},
                 {".exe.config", "text/xml"},
                 {".fdf", "application/vnd.fdf"},
                 {".fif", "application/fractals"},
