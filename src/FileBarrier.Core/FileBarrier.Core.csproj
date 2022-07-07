@@ -24,7 +24,7 @@ Usage: YOUR_IFormFile.IsFileAllowed(ARGS);</Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.1.22" />
   </ItemGroup>
 
 </Project>
