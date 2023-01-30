@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <PackageId>FileBarrier.Core</PackageId>
-    <Version>3.1.0</Version>
-    <AssemblyVersion>3.1.0.0</AssemblyVersion>
-    <FileVersion>3.1.0.0</FileVersion>
+    <Version>6.0.0</Version>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+    <FileVersion>6.0.0.0</FileVersion>
     <Authors>SA.Developer</Authors>
     <Company>None</Company>
 
@@ -17,7 +17,7 @@
     </Description>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageTags>file filter core mimetype contenttype</PackageTags>
-    <PackageReleaseNotes>- Moving to .NET Core 3.1.</PackageReleaseNotes>
+    <PackageReleaseNotes>- Moving to .NET 6.0.</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
