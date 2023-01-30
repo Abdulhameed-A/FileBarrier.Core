@@ -13,7 +13,7 @@
 Usage: YOUR_IFormFile.IsFileAllowed(ARGS);</Description>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageTags>file filter core mimetype contenttype</PackageTags>
-    <PackageReleaseNotes>- Added application/x-msdownload to exe.</PackageReleaseNotes>
+    <PackageReleaseNotes>- Security patch by bumping Microsoft.AspNetCore.Http from 2.1.1 to 2.1.22.</PackageReleaseNotes>
     <AssemblyVersion>1.0.7.0</AssemblyVersion>
     <FileVersion>1.0.7.0</FileVersion>
   </PropertyGroup>
