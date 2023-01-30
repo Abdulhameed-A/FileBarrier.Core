@@ -1,21 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <PackageId>FileBarrier.Core</PackageId>
-    <Version>1.0.7</Version>
+    <Version>3.1.0</Version>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
+    <FileVersion>3.1.0.0</FileVersion>
     <Authors>SA.Developer</Authors>
     <Company>None</Company>
 
     <Title>File Barrier</Title>
-    <Description>This library helps you decide the allowed files in your system by letting the file go through specific checks (filtering layers) before doing anything to the file. It supports four layers of checking including MimeTypes, and Content-Types.
+    <Description>
+      This library helps you decide the allowed files in your system by letting the file go through specific checks (filtering layers) before doing anything to the file. It supports four layers of checking including MimeTypes, and Content-Types.
 
-Usage: YOUR_IFormFile.IsFileAllowed(ARGS);</Description>
+      Usage: YOUR_IFormFile.IsFileAllowed(ARGS);
+    </Description>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageTags>file filter core mimetype contenttype</PackageTags>
-    <PackageReleaseNotes>- Security patch by bumping Microsoft.AspNetCore.Http from 2.1.1 to 2.1.22.</PackageReleaseNotes>
-    <AssemblyVersion>1.0.7.0</AssemblyVersion>
-    <FileVersion>1.0.7.0</FileVersion>
+    <PackageReleaseNotes>- Moving to .NET Core 3.1.</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -24,7 +26,6 @@ Usage: YOUR_IFormFile.IsFileAllowed(ARGS);</Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.1.22" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
   </ItemGroup>
-
 </Project>
